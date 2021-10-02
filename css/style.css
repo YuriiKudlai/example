@@ -1,0 +1,49 @@
+.link {
+  cursor: help;
+  color: teal;
+}
+
+.link:hover {
+  color: tomato;
+}
+
+.social-links .link {
+  color: teal;
+}
+
+.social-links .link:hover,
+.social-links .link:focus {
+  color: orange;
+}
+
+.social-links .link:active {
+  color: rgb(105, 20, 155);
+}
+
+.social-links .link:visited {
+  color: rgb(241, 221, 37);
+}
+
+.schedule-body > tr:hover {
+  background-color: tomato;
+  color: white;
+}
+
+/* Оформление таблицы */
+.schedule {
+  border-collapse: collapse;
+}
+
+.schedule th,
+.schedule td {
+  padding: 8px;
+  border: 1px solid #212121;
+}
+
+body {
+  font-family: sans-serif;
+}
+.text {
+  /* background-color: tomato; */
+  color: rgb(58, 36, 36);
+}
